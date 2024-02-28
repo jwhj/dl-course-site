@@ -1,0 +1,4 @@
+baseURL = 'https://jwhj.github.io/dl-course-site/'
+languageCode = 'en-us'
+title = 'Deep Learning'
+theme = 'archie'
