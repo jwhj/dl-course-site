@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning</title>
-    <link>https://jwhj.github.io/dl-course-site/</link>
+    <link>http://localhost:1313/dl-course-site/</link>
     <description>Recent content on Deep Learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2024 22:11:29 +0800</lastBuildDate>
-    <atom:link href="https://jwhj.github.io/dl-course-site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Feb 2024 21:30:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/dl-course-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/dl-course-site/about/</link>
+      <pubDate>Thu, 29 Feb 2024 21:30:45 +0800</pubDate>
+      <guid>http://localhost:1313/dl-course-site/about/</guid>
+      <description>asdf</description>
+    </item>
     <item>
       <title>Hello World</title>
-      <link>https://jwhj.github.io/dl-course-site/posts/hello-world/</link>
+      <link>http://localhost:1313/dl-course-site/posts/hello-world/</link>
       <pubDate>Wed, 28 Feb 2024 22:11:29 +0800</pubDate>
-      <guid>https://jwhj.github.io/dl-course-site/posts/hello-world/</guid>
+      <guid>http://localhost:1313/dl-course-site/posts/hello-world/</guid>
       <description>Hello, world!</description>
     </item>
   </channel>
