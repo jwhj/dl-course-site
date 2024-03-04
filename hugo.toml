@@ -2,13 +2,3 @@ baseURL = 'https://jwhj.github.io/dl-course-site/'
 languageCode = 'en-us'
 title = 'Deep Learning'
 theme = 'archie'
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 2
