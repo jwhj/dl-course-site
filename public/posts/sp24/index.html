@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html><head lang="en">
+<html><head lang="en"><script src="/dl-course-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dl-course-site/livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Deep Learning Sp24 - Deep Learning</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/4abe60075bb94d60b3cd/
+	<meta name="description" content="Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/5e5c97100dd34e028298/
 课程录屏：https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/
+Lecture 2 课件：https://cloud.tsinghua.edu.cn/f/d3f27c1ea0d1429b9af3/
+课程录屏：https://cloud.tsinghua.edu.cn/f/c027e2d12f71410785a6/
 往年 Lecture Notes Normalizing Flow Variational Autoencoders Sequence Modeling " />
 	<meta property="og:image" content=""/>
 	<meta property="og:title" content="Deep Learning Sp24" />
-<meta property="og:description" content="Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/4abe60075bb94d60b3cd/
+<meta property="og:description" content="Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/5e5c97100dd34e028298/
 课程录屏：https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/
+Lecture 2 课件：https://cloud.tsinghua.edu.cn/f/d3f27c1ea0d1429b9af3/
+课程录屏：https://cloud.tsinghua.edu.cn/f/c027e2d12f71410785a6/
 往年 Lecture Notes Normalizing Flow Variational Autoencoders Sequence Modeling " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jwhj.github.io/dl-course-site/posts/sp24/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:1313/dl-course-site/posts/sp24/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-03-04T15:53:42+08:00" />
 <meta property="article:modified_time" content="2024-03-04T15:53:42+08:00" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Deep Learning Sp24"/>
-<meta name="twitter:description" content="Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/4abe60075bb94d60b3cd/
+<meta name="twitter:description" content="Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/5e5c97100dd34e028298/
 课程录屏：https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/
+Lecture 2 课件：https://cloud.tsinghua.edu.cn/f/d3f27c1ea0d1429b9af3/
+课程录屏：https://cloud.tsinghua.edu.cn/f/c027e2d12f71410785a6/
 往年 Lecture Notes Normalizing Flow Variational Autoencoders Sequence Modeling "/>
 
 	
-        <link href="https://jwhj.github.io/dl-course-site/css/fonts.11a1877508139eac0b5b4852ceb110c35641b3533321e66e39149e901ed5756b.css" rel="stylesheet">
+        <link href="http://localhost:1313/dl-course-site/css/fonts.11a1877508139eac0b5b4852ceb110c35641b3533321e66e39149e901ed5756b.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://jwhj.github.io/dl-course-site/css/main.d902908ac6e0fab67957de5db5aea1b6455b19ae2ca98eac4c95a4a0fdc02238.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/dl-course-site/css/main.d902908ac6e0fab67957de5db5aea1b6455b19ae2ca98eac4c95a4a0fdc02238.css" />
 
 	
 	
@@ -38,7 +44,7 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="https://jwhj.github.io/dl-course-site/">Deep Learning</a>
+		<a href="http://localhost:1313/dl-course-site/">Deep Learning</a>
 	</div>
 	<nav>
 		
@@ -56,8 +62,11 @@
 
 		<section class="body">
 			<h1 id="lecture-1">Lecture 1</h1>
-<p>课件：<a href="https://cloud.tsinghua.edu.cn/f/4abe60075bb94d60b3cd/">https://cloud.tsinghua.edu.cn/f/4abe60075bb94d60b3cd/</a></p>
+<p>课件：<a href="https://cloud.tsinghua.edu.cn/f/5e5c97100dd34e028298/">https://cloud.tsinghua.edu.cn/f/5e5c97100dd34e028298/</a></p>
 <p>课程录屏：<a href="https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/">https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/</a></p>
+<h1 id="lecture-2">Lecture 2</h1>
+<p>课件：<a href="https://cloud.tsinghua.edu.cn/f/d3f27c1ea0d1429b9af3/">https://cloud.tsinghua.edu.cn/f/d3f27c1ea0d1429b9af3/</a></p>
+<p>课程录屏：<a href="https://cloud.tsinghua.edu.cn/f/c027e2d12f71410785a6/">https://cloud.tsinghua.edu.cn/f/c027e2d12f71410785a6/</a></p>
 <h1 id="往年-lecture-notes">往年 Lecture Notes</h1>
 <ul>
 <li><a href="https://cloud.tsinghua.edu.cn/f/b553eb16873a4f77ac19/">Normalizing Flow</a></li>
@@ -81,8 +90,6 @@
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
 </div>
     </body>
 </html>
