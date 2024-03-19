@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Deep Learning</title>
-    <link>http://localhost:1313/dl-course-site/posts/</link>
+    <link>https://jwhj.github.io/dl-course-site/posts/</link>
     <description>Recent content in Posts on Deep Learning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Mar 2024 15:53:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/dl-course-site/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jwhj.github.io/dl-course-site/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning Sp24</title>
-      <link>http://localhost:1313/dl-course-site/posts/sp24/</link>
+      <link>https://jwhj.github.io/dl-course-site/posts/sp24/</link>
       <pubDate>Mon, 04 Mar 2024 15:53:42 +0800</pubDate>
-      <guid>http://localhost:1313/dl-course-site/posts/sp24/</guid>
-      <description>Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/5e5c97100dd34e028298/&#xA;课程录屏：https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/&#xA;Lecture 2 课件：https://cloud.tsinghua.edu.cn/f/d3f27c1ea0d1429b9af3/&#xA;课程录屏：https://cloud.tsinghua.edu.cn/f/c027e2d12f71410785a6/&#xA;往年 Lecture Notes Normalizing Flow Variational Autoencoders Sequence Modeling </description>
+      <guid>https://jwhj.github.io/dl-course-site/posts/sp24/</guid>
+      <description>Lecture 1 课件：https://cloud.tsinghua.edu.cn/f/5e5c97100dd34e028298/&#xA;课程录屏：https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/&#xA;Lecture 2 课件：https://cloud.tsinghua.edu.cn/f/d3f27c1ea0d1429b9af3/&#xA;课程录屏：https://cloud.tsinghua.edu.cn/f/c027e2d12f71410785a6/&#xA;Lecture 3 课件：https://cloud.tsinghua.edu.cn/f/665bcdc7c8f6419fb3d8/&#xA;课程录屏：https://cloud.tsinghua.edu.cn/d/8d40e8f9be7f44d9b3e2/&#xA;往年 Lecture Notes Normalizing Flow Variational Autoencoders Sequence Modeling </description>
     </item>
   </channel>
 </rss>
